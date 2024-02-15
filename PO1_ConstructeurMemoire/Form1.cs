@@ -49,7 +49,7 @@ namespace PO1_ConstructeurMemoire
             if (!erreur)
             {
                 Joueur nouveauJoueur = new Joueur(nomNouveauJoueur, equipeNouveauJoueur);
-                joueurs.Add(nouveauJoueur);
+                joueurs.Add(nouveauJoueur); 
             }
             bindingSourceListboxEquipes.ResetBindings(false);
             bindingSourceComboBoxEquipes.ResetBindings(false);
